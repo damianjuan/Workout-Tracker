@@ -5,7 +5,6 @@ const Schema = mongoose.Schema;
 const DaySchema = new Schema({
     day: {
         type: Date,
-        default,
         unique: true
     },
     exercises: [
